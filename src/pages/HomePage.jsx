@@ -1,6 +1,7 @@
 import React from "react";
 import { blogData } from "./blog/blogData";
 import { Link } from "react-router-dom";
+import Disclaimer from "./Disclaimer";
 
 const HomePage = () => {
   return (
@@ -97,6 +98,7 @@ const HomePage = () => {
           ))}
         </div>
       </section>
+      <Disclaimer />
     </main>
   );
 };
